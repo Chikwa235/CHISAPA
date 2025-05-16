@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://thumbs.dreamstime.com/z/to-do-list-flat-lay-office-workspace-desk-coffee-blank-notebook-electronic-devices-computer-organizer-mockup-concept-210137879.jpg');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+}
+
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.deleteTask {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#taskInput {
+     width: 80%;           /* or a fixed width like 300px */
+  padding: 12px 16px;    /* increases input box size */
+  font-size: 18px;       /* increases text size */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box; 
+}
+#addTask {
+  padding: 12px 20px;     /* increases button size */
+  font-size: 18px;        /* increases text size */
+  border: none;
+  background-color: #4CAF50; /* green background */
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#addTask:hover {
+  background-color: yellow; /* slightly darker on hover */
+  
+}
